@@ -1,0 +1,229 @@
+body {
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding-top: 54px;
+  color: #868e96;
+}
+@media (min-width: 992px) {
+  body {
+      padding-top: 0;
+      padding-left: 17rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #868e96;
+}
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p.lead {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2rem;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-align: start;
+}
+#sideNav .navbar-toggler:focus {
+  outline-color: #282a36;
+}
+@media (min-width: 992px) {
+  #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+  }
+  #sideNav .navbar-brand {
+      display: flex;
+      margin-bottom: 30%;
+      padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+  }
+}
+section.resume-section {
+  background-color: #343a40;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+@media (min-width: 768px) {
+  section.resume-section {
+      min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+  }
+}
+.bg-primary {
+  background-color: #282a36	 !important;
+}
+.text-primary {
+  color: #282a36	 !important;
+}
+a {
+  color: #282a36	;
+}
+a:active,
+a:focus,
+a:hover {
+  color: #282a50	;
+}
+
+
+/* Experiencia */
+.experiencia .experiencia-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*color: #000000;*/
+}
+
+.experiencia .experiencia-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.experiencia .experiencia-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  /*color: #050d18;*/
+  margin-bottom: 10px;
+}
+
+.experiencia .experiencia-item ul {
+  padding-left: 20px;
+}
+
+.experiencia .experiencia-item ul li {
+  padding-bottom: 10px;
+}
+
+.experiencia .experiencia-item:last-child {
+  padding-bottom: 0;
+}
+
+.experiencia .experiencia-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+/* Social Links*/
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+#footer {
+  padding: 15px;
+  font-size: 14px;
+  position: fixed;
+  width: 17rem;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+@media (max-width: 1199px) {
+  #footer {
+    position: static;
+    width: auto;
+    background-color: #282a36;
+  }
+}
+
+/* Light box */
+.min {
+  width: 200px;
+  padding: 10px;
+}
